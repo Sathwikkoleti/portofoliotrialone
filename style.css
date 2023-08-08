@@ -10,6 +10,7 @@ body{
     font-family: 'Noto Sans', sans-serif;
     background-color: #f5f5dc;
     font-style: bold;
+    margin: 0;
 }
 .container{
     padding: 0rem 1rem;
@@ -63,6 +64,7 @@ body{
 }
 .section{
     padding: 1.5rem;
+    display: block;
 }
 .grey h1{
     text-align: center;
@@ -88,4 +90,40 @@ body{
     padding:2rem;
     border-top-right-radius: 1rem;
     
+}
+.footer .list-bullet{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: xx-small;
+    
+}
+.footer-name{
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.primary-link{
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: black;
+    padding:0.5rem;
+
+}
+.secondary-link{
+    border: 1.5px solid var(--primary-color);
+    border-radius: 0.5rem;
+    color:var(--primary-color);
+    padding:0.5rem;
+
+}
+.link{
+    text-decoration: none;
+}
+footer ul{
+    padding-inline-start: 0px;
+}
+.list-non-bullet{
+    list-style-type: none;
+
 }
