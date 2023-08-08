@@ -127,3 +127,13 @@ footer ul{
     list-style-type: none;
 
 }
+.w{
+    display: block;
+    max-width: 200px;
+    margin: auto;
+    padding: 0.5px;
+}
+.circular-img{
+    border-radius: 100%;
+    border: 3px solid var(--primary-color);
+}
