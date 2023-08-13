@@ -182,17 +182,17 @@ footer ul{
     margin-bottom: 5px;
 }
 .link:before{
-    content:" ";
+    /* content:" ";
     position: absolute;
     bottom: 2px;
     height: 4px;
     width: 25%;
     background-color: var(--black);
-    border-radius: 50px;
-    transform:scaleY(0);
+    border-radius: 50px; */
+    transform:scaleX(0);
     transition: transform 0.2s linear;
 }
-.link:hover:before{
-    color: var(--dark-grey);
-    transform:scaleY(1);
+.link:hover{
+    color: var(--baige);
+    transform:scaleX(1);
 }
