@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 :root{
     --primary-color:#10b981;
     --dark-grey:#475569;
     --light-grey:;
     --white:#f8fafc;
+    --black:#000000;
+    --baige:#f5f5dc;
 }
 
 body{
-    font-family: 'Noto Sans', sans-serif;
-    background-color: #f5f5dc;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--baige);
     font-style: bold;
     margin: 0;
 }
@@ -20,10 +22,17 @@ body{
     margin:auto;
 }
 .navigation{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color:var(--primary-color);
     border-radius:0rem 0rem 0rem 1rem;
     padding:1rem;
+    /* position: relative;
+    overflow: hidden;
+    background: linear-gradient(45deg, #b02fd4, #a11c1c);
+    color: #ffffff; */
+    text-align: left;
+    border-radius: 0 0  0 25px  ;
+    padding: 1rem;
     
 }
 .navigation .nav-name{
@@ -34,7 +43,7 @@ body{
     padding:0rem 1rem;
 }
 .navigation .link{
-    color:black;
+    color:var(--black);
     font-style: bold;
     text-decoration: none;
 
@@ -89,7 +98,7 @@ body{
     background-color: var(--primary-color);
     padding:2rem;
     border-top-right-radius: 1rem;
-    
+    margin: auto;
 }
 .footer .list-bullet{
     text-align: center;
@@ -129,11 +138,60 @@ footer ul{
 }
 .w{
     display: block;
-    max-width: 200px;
-    margin: auto;
+    max-width: 75px;
+    margin: 15px;
     padding: 0.5px;
 }
 .circular-img{
-    border-radius: 100%;
+    border-radius: 50%;
     border: 3px solid var(--primary-color);
+}
+.section1{
+    padding: 5rem;
+    display: block;
+    text-align: center;
+}
+.profile{
+    color:var(--primary-color);
+    font-size: 2rem;
+   
+}
+.profile-info {
+    display: ;
+    vertical-align: top;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+    background-color: var(--primary-color);
+    padding:1rem;
+    padding-bottom: 0.5rem;
+    border-radius: 45% 45% 45% 45%;
+    border: 3px solid var(--black);
+}
+
+.profile-info h2 {
+    font-size: 24px;
+    color: var(--dark-grey);
+    margin-bottom: 10px;
+    
+}
+
+.profile-info p {
+    font-size: 16px;
+    color: var(--black);
+    margin-bottom: 5px;
+}
+.link:before{
+    content:" ";
+    position: absolute;
+    bottom: 2px;
+    height: 4px;
+    width: 25%;
+    background-color: var(--black);
+    border-radius: 50px;
+    transform:scaleY(0);
+    transition: transform 0.2s linear;
+}
+.link:hover:before{
+    transform:scaleY(1);
 }
