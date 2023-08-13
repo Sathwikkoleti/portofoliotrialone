@@ -193,5 +193,6 @@ footer ul{
     transition: transform 0.2s linear;
 }
 .link:hover:before{
+    color: var(--dark-grey);
     transform:scaleY(1);
 }
