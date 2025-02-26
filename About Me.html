@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE</title>
+</head>
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+:root{
+    --primary-color:#10b981;
+    --dark-grey:#475569;
+    --light-grey:#e0e0e0;
+    --white:#f8fafc;
+    --black:#000000;
+    --baige:#F5F5DC;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--baige);
+    font-style: bold;
+    height: 100vh;
+    width: 100vw;
+    cursor: auto;
+}
+.placeholder{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--baige);
+    font-style: bold;
+    margin: 0;
+}
+    .container{
+        padding: 1rem 1rem;
+
+    }
+.container-center{
+    max-width: 600px;
+    margin:auto;
+    text-align: center;
+}
+.navigation{
+    font-family: 'Poppins', sans-serif;
+    background-color:var(--primary-color);
+    border-radius:0rem 0rem 0rem 1rem;
+    padding:1rem;
+    text-align: left;
+    border-radius: 0 0  0 25px  ;
+    padding: 1rem;
+    margin-bottom: 15%;
+    
+}
+.navigation .nav-name{
+    font-size: 1.5rem;
+}
+.list-inline{
+    display:inline;
+    padding:0rem 1rem;
+}
+.navigation .link{
+    color:var(--black);
+    font-style: bold;
+    text-decoration: none;
+
+}
+.navigation .list-bullet{
+    text-align: right;
+}
+.u {
+    padding: 1rem;
+}
+.u .u-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    
+}
+.u .u-heading{
+    padding-top: 1rem;
+    color: var(--dark-grey);
+    text-align:center;
+}
+.u .u-heading .heading-hl{
+    color:var(--primary-color)
+}
+.section h1,h2,h3{
+    text-align: center;
+}
+.section{
+    /* padding: 1rem; */
+    display: block;
+}
+.section li{
+    
+    padding: 1.5rem;
+}
+.section li a{
+   position: relative;
+   top: 10px;
+}
+.grey h1{
+    text-align: center;
+}
+.grey{
+    background-color: var(--light-grey);
+}
+/* .black-bg h1{
+    color:var(--dark-grey);
+}
+.black-bg{
+    color:var(--white)
+} */
+.footer .link{
+    text-decoration: none;
+    color:black;
+    text-align: right;
+    
+    
+}
+.footer{
+    background-color: var(--primary-color);
+    padding:2rem;
+    border-top-right-radius: 1rem;
+    /* margin: auto; */
+    margin-top: 15%;
+    bottom: 0;
+}
+.footer .list-bullet{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: xx-small;
+    
+}
+.footer-name{
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.primary-link{
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: black;
+    padding:0.5rem;
+
+}
+.secondary-link{
+    border: 1.5px solid var(--primary-color);
+    border-radius: 0.5rem;
+    color:var(--primary-color);
+    padding:0.5rem;
+
+}
+.link{
+    text-decoration: none;
+   
+}
+footer ul{
+    padding-inline-start: 0px;
+}
+.list-non-bullet{
+    list-style-type: none;
+    padding: -32px;
+
+}
+.w{
+    display: block;
+    max-width: 75px;
+    margin: 15px;
+    padding: 0.5px;
+}
+.circular-img{
+    border-radius: 50%;
+    border: 3px solid var(--primary-color);
+}
+.section1{
+    padding: 5rem;
+    display: block;
+    text-align: center;
+}
+.profile{
+    color:var(--primary-color);
+    font-size: 2rem;
+   
+}
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 2rem; */
+    /* margin-right: 2rem; */
+    text-align: left;
+    /* padding:1rem; */
+    /* padding-bottom: 0.5rem; */
+    bottom:0;
+}
+
+.profile-info h2 {
+    font-size: 24px;
+    color: var(--dark-grey);
+    margin-bottom: 10px;
+    
+}
+
+.profile-info p {
+    font-size: 16px;
+    color: var(--black);
+    margin-bottom: 5px;
+}
+.link:before{
+    transform:scaleX(0);
+    transition: transform 0.4s radial;
+}
+.link:hover{
+    color: var(--baige);
+    transform:scaleX(1);
+}
+.small{
+    align-items: 15rem;
+    align-content: 20rem;
+}
+
+
+</style>
+<body>
+
+     <nav class="navigation container">
+        <div class="nav-name"><strong>Sathwik K</strong> </div>
+        <ul class="list-bullet">
+            <li class="list-inline"><a class="link" href="index.html"><strong>HOME</strong></a></li >
+            <li class="list-inline"><a class="link" href="/projects.html"><strong>PROJECTS</strong></a></li>
+            <li class="list-inline"><a class="link" href="#"><strong>ABOUT ME</strong></a></li>
+        </ul>
+    </nav>
+    <header>
+        <!-- <img class="w circular-img" src="images/w.jpeg"><span class="profile">profile</span></img> -->
+        <div class="profile-info">
+            <h2>Koleti Sathwik</h2>
+            <p>Contact: +91 9100553074</p>
+            <p>Education: Bachelor of Technology in Computer Science</p>
+            <p>Email: <a href="mailto:sathwikkoleti@gmail.com">sathwikkoleti@gmail.com</a>
+            </p>
+        </div>
+    </header>
+       
+    </section>
+ 
+<p>
+    
+</p>
+    </section>
+    <footer class="footer">
+        <div class="footer-name">Social Media</div>
+        <ul class="list-bullet">
+            <li class="list-inline">
+                <a class="link" href="https://www.linkedin.com/in/koleti-sathwik/">LinkedIn</a>
+            </li>
+            <li class="list-inline">
+                <a class="link" href="https://github.com/Sathwikkoleti">GitHub</a></li>
+            <li class="list-inline">
+                <a class="link" href="https://twitter.com/sathwik_koleti">Twitter</a></li>
+        </ul>
+       </footer>
+</body>
+</html>
